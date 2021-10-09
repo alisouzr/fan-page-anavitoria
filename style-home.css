@@ -1,0 +1,66 @@
+body {
+    background-color: darkgrey;
+}
+
+.textPrincipal {
+    padding: 20px;
+}
+
+.imgprinc{
+    width: 100%;
+}
+
+.filmografia h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.h2principal {
+    padding: 20px;
+}
+
+.pprincipal{
+    padding: 5px;
+}
+
+.principal{
+    text-align: center;
+    padding: 30px;
+}
+
+#missao{
+    font-size:20px
+}
+
+em strong {
+    color: #FF0000;
+}
+
+.itens{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-right: 15%;
+    padding: 5px;
+}
+
+.imgfilmografia{
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.finalone {
+    margin: 20px 0 0;
+}
+
+.finaltwo {
+    margin: 20px 0 0;
+}
