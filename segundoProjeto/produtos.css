@@ -22,7 +22,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: black;
+    color: darkorchid;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -56,6 +56,14 @@ nav a:hover{
     border-radius: 10px;
 }
 
+.fotinhas li:hover{
+    border-color: darkorchid;
+}
+
+.fotinhas li:hover h2{
+    font-size: 35px;
+}
+
 .fotinhas h2 {
     font-size: 30px;
     font-weight: bold;
@@ -63,4 +71,18 @@ nav a:hover{
 
 .fotinhas p {
     font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: #CCCCCC;
+    padding: 40px 0;
+}
+
+.finalone {
+    margin: 20px 0 0;
+}
+
+.finaltwo {
+    margin: 20px 0 0;
 }
