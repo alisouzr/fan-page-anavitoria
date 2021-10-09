@@ -1,23 +1,31 @@
-body{
-    
+body {
+    background-color: darkgrey;
 }
 
-.space{
+.textPrincipal {
+    padding: 20px;
+}
+
+.imgprinc{
     width: 100%;
+}
+
+.filmografia h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.h2principal {
+    padding: 20px;
+}
+
+.pprincipal{
+    padding: 5px;
 }
 
 .principal{
     text-align: center;
-    background-color: darkgrey;
     padding: 30px;
-}
-
-.título-principal{
-    padding-left: 20px;
-}
-
-.título-centralizado{
-    text-align: center;
 }
 
 #missao{
@@ -32,19 +40,27 @@ em strong {
     font-style: italic;
 }
 
-.filmografia{
-    background: #FFFFFF;
-}
-
-
-
 ul{
     display: inline-block;
     vertical-align: top;
-    width: 20%;
+    width: 25%;
     margin-right: 15%;
+    padding: 5px;
 }
 
 .imgfilmografia{
     width: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.finalone {
+    margin: 20px 0 0;
+}
+
+.finaltwo {
+    margin: 20px 0 0;
 }
