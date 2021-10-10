@@ -86,3 +86,29 @@ footer {
 .finaltwo {
     margin: 20px 0 0;
 }
+
+.imgprinc {
+    width: 100%;
+}
+
+.h2principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imgfilmografia {
+    width: 60%;
+}
