@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -33,19 +37,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
-footer {
-    text-align: center;
-    background: #CCCCCC;
-    padding: 40px 0;
-}
 
-.finalone {
-    margin: 20px 0 0;
-}
-
-.finaltwo {
-    margin: 20px 0 0;
-}
 
 main{
     width: 940px;
@@ -104,4 +96,44 @@ thead {
 td,th {
     border: 1px solid #000000;
     padding: 8px 15px;
+}
+
+footer {
+    text-align: center;
+    background: #CCCCCC;
+    padding: 40px 0;
+}
+
+.finalone {
+    margin: 20px 0 0;
+}
+
+.finaltwo {
+    margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .input-padrao {
+        width: auto;
+        
+    }
+
+    .main, form {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .container img{
+        max-width:250px;
+        max-height:250px;
+        width: auto;
+        height: auto;
+}
 }

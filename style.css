@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -91,10 +95,18 @@ footer {
     width: 100%;
 }
 
-.h2principal {
+.tituloprincipal {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    clear: left;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -109,6 +121,106 @@ footer {
     font-style: italic;
 }
 
+.feleanavitoria {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+    
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.filmografia {
+    padding: 3em 0;
+    background: #888888;
+    
+}
+
+.conteudo-filmografia {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-filmografia {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:before {
+    content: "★";
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
 .imgfilmografia {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.imgfilmografia:hover {
+    opacity: 0.3;
+}
+
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-filmografia, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .container img{
+            max-width:250px;
+            max-height:250px;
+            width: auto;
+            height: auto;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-filmografia, .imgfilmografia {
+        width: 100%;
+    }
+
+    .fotinhas {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fotinhas li {
+        width: auto;
+        text-align: center;
+    }
+
 }
