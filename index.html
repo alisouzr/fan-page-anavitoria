@@ -3,16 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>HOME</title>
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="img/iconLOL.jpg"></h1>
+            <h1 class="container"><img src="img/iconLOL.jpg"></h1>
 
             <nav>
                 <ul>
@@ -28,7 +32,9 @@
 
     <main>
         <section class="principal">
-            <h2 class="h2principal">Sobre o Duo Ana Caetano e Vitória Falcão</h2>
+            <h2 class="tituloprincipal">Sobre o Duo Ana Caetano e Vitória Falcão</h2>
+
+            <img class="feleanavitoria" src="img/felipeeanavitoria.jpg" alt="ANAVITÓRIA e o empresário Felipe">
 
             <p class="pprincipal">Ana Caetano e Vitória Falcão estudaram na mesma escola em Araguaína - TO, embora na
                 época ainda não cantassem. Em 2013,
@@ -43,17 +49,37 @@
                     Vitória Fernandes Falcão (Araguaína, 2 de maio de 1995)</em>.</p>
         </section>
 
+        <section class="mapa">
+            <h3 class="tituloprincipal">Nosso estabelecimento</h3>
+            <p>Estamos localizados no coração da cidade.</p>
+
+            <div class="mapa-conteudo">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6224.
+                    244355701183!2d-9.103438245485963!3d38.73795846180208!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1933dfcf2f2839%3A0x2965de8ed894dc62!2sRua%20do%20A%C3%A7%C3%BAcar%2076%2C%201950-009%20Lisboa%2C%20Portugal!5e0!3m2!1spt-BR!2sbr!4v1633894377773!5m2!1spt-BR!2sbr"
+                    width="100%" height="315" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
         <section class="filmografia">
-            <h3 class="h2principal">Filmografia</h3>
+            <h3 class="tituloprincipal">Filmografia</h3>
 
-            <ul>
-                <li class="itens">Ana e Vitória (2018)</li>
-                <li class="itens">Anavitória: Araguaína - Las Vegas (2019)</li>
-                <li class="itens">O Tempo É Agora: Ao Vivo na Fundição (2020)</li>
-            </ul>
+            <div class="conteudo-filmografia">
+                <ul class="lista-filmografia">
+                    <li class="itens">Ana e Vitória (2018)</li>
+                    <li class="itens">Anavitória: Araguaína - Las Vegas (2019)</li>
+                    <li class="itens">O Tempo É Agora: Ao Vivo na Fundição (2020)</li>
+                </ul><img src="img/av2.jpg" class="imgfilmografia"
+                    alt="Imagem com uma frase no centro 'Que a felicidade é mistério'">
+            </div>
 
-            <img src="img/av2.jpg" class="imgfilmografia"
-                alt="Imagem com uma frase no centro 'Que a felicidade é mistério'">
+            <div class="video">
+                <iframe width="100%" height="315"
+                    src="https://www.youtube.com/embed/videoseries?list=PLsyvDWwjkTqtOmqAiTzzfHspTAztB-udL"
+                    frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
+                </iframe>
+            </div>
         </section>
     </main>
 

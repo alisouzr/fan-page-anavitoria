@@ -3,16 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
     <title>CONTATO</title>
 
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="img/iconLOL.jpg" alt="Foto da Ana e Vitória"></h1>
+            <h1 class="container"><img src="img/iconLOL.jpg" alt="Foto da Ana e Vitória"></h1>
 
             <nav>
                 <ul>
@@ -36,7 +41,7 @@
             <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
             <label for="mensagem">Mensagem</label>
-            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+            <textarea class="input-padrao" required></textarea>
 
             <fieldset>
                 <legend>Como prefere o nosso contato?</legend>
@@ -92,7 +97,7 @@
         </table>
     </main>
 
-    <footer>
+    <footer class="responsivo">
         <img src="https://anavitoria.com.br/wp-content/themes/anavitoria/assets/svg/logo.svg" alt="Logo de ANAVITÓRIA">
         <p class="finalone">&copy; Copyright ANAVITÓRIA - 2021</p>
         <p class="finaltwo">made by alisouzr / personal project</p>
